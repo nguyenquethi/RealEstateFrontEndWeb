@@ -1,0 +1,34 @@
+.aboutUs{
+    padding: 50px 200px;
+}
+.aboutUs h1 {
+    text-align: center;
+    color:rgb(224, 162, 80);
+}
+
+.aboutUs p {
+    text-align: center;
+}
+
+.about-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.about-layout-content{
+    padding: 35px;
+}
+
+.about-layout-content h2{
+    text-align: center;
+}
+
+.about-layout-content p{
+    text-align: center;
+}
+
+
+

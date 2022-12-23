@@ -1,0 +1,137 @@
+.contact-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+
+.contact-form{
+    max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.contact-address{
+    margin-left: 30px;
+    padding: 30px;
+    max-width: 400px;
+}
+
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+  }
+  
+.list-item {
+    line-height: 4;
+    color: rgb(224, 162, 80);
+  }
+  
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+  }
+  
+.place {
+    margin-left: 62px;
+  }
+  
+.phone {
+    margin-left: 56px;
+  }
+  
+.gmail {
+    margin-left: 53px;
+  }
+  
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+  }
+  
+.social-media-list li a {
+    color: #fff;
+  }
+  
+.social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(224, 162, 80);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+
+form {
+     max-width:420px; 
+     margin:50px auto; 
+    }
+
+.feedback-input {
+    color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid rgb(224, 162, 80);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid rgb(224, 162, 80); }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: rgb(224, 162, 80);
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background: rgb(224, 162, 80); }
+
+  

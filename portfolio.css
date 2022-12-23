@@ -1,0 +1,22 @@
+.aboutUs{
+    padding: 50px 200px;
+}
+.aboutUs h1 {
+    text-align: center;
+    color:rgb(224, 162, 80);
+}
+
+.aboutUs p {
+    text-align: center;
+}
+
+.portfolio-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 60px;
+}
+
+.portfolio-layout-item{
+    text-align: center;
+}

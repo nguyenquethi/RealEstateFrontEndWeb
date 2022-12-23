@@ -1,0 +1,33 @@
+main h1{
+    text-align: center;
+    color:rgb(224, 162, 80);
+}
+
+.layout{
+    display: flex;
+    border: .5px solid gray; 
+    box-sizing: border-box; 
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.layout-item{
+    flex:50%; 
+}
+
+img{
+    vertical-align: middle;
+}
+
+.layout-content{
+    flex: 50%;
+    padding: 35px;
+}
+
+.btn{
+    color:rgb(224, 162, 80); 
+    border: solid 1px;
+    padding: 9px;
+    border-radius: 5px;
+}

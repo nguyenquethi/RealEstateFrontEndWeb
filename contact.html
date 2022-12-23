@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="index.html">ARCHITECTS</a></h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sale.html">Sales</a></li>
+                <li><a href="rental.html">Rentals</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <a href="" class="btn">Sign in</a>
+        </nav>
+
+        <div class="hero">
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="contact-layout">
+        <form class="contact-form">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+
+        <div class="contact-address">
+        <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+            
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">thi.nque22@gmail.com</a></span></i></li>
+            
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        </div>
+        </div>
+
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="600" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=727%20shaw%20street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a>
+                <style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:600px;}</style>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+        <div class="address">
+            <table>
+                <tr>
+                    <th>GET IN TOUCH</th><br>
+                </tr>
+                <tr>
+                    <td>
+                        Tel: 123-456-7890 <br>
+                        Email: thi.nque22@gmail.com
+                    </td>
+                    
+                    <td>
+                        500 Terry Francois St <br>
+                        San Francisco, CA 94158
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>&copy; 2035 by L&T architects.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <table>
+                <tr>
+                    <th>CONTACT US</th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Enter Your Name</label>
+                    </td>
+                    <td>
+                        <label for="message">Enter Your Message</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="name" name="name" placeholder="name">
+                    </td>
+                    <td rowspan="3">
+                        <textarea  name="message" id="message" cols="30" rows="5" >Message</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Enter Your Email</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
